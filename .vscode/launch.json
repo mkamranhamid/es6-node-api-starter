@@ -1,0 +1,19 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "All Files",
+                "program": "${workspaceRoot}/src/index.js",
+                "outFiles": ["${workspaceRoot}/dist/**/*.js"]
+            },
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Single File Debug",
+                "program": "${workspaceRoot}/dist/index.js"
+            }
+        ]
+    }
